@@ -52,7 +52,7 @@ function addItUp(...$arraysOfData)
         }
     }
 
-    return  array_merge(...$arraysOfData);
+    return $arrResult;
 }
 
 consoleTable(addItUp($arr1, $arr2));
